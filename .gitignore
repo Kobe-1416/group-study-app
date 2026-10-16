@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output
+**/dist/
+**/build/
+**/coverage/
+
+# Secrets / local environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
