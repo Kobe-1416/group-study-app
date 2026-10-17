@@ -1,0 +1,8 @@
+workspace:
+  id: 190d8461-5cc7-4a36-8727-157678564f8c
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/Group Study: 51083647-34834780-1b7a-4692-8b2a-bfa24aba3672

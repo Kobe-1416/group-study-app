@@ -138,7 +138,3 @@ Run `npm run migrate` after adding a new numbered `.sql` file under `server/migr
 ## Next milestone
 
 Add users + session authentication routes with validation, password hashing, rate limiting, and tests; then group creation and membership endpoints.
-=======
-# group-study-app
-An app to host group study sessions.
->>>>>>> da1541049260974f9799fbab9e289169cf543ba4

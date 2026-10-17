@@ -1,0 +1,5 @@
+name: Group Study App
+values:
+  - key: baseUrl
+    value: ''
+color: 120

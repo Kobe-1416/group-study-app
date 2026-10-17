@@ -3,6 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import { pool } from './db.js';
+import authRoutes from './modules/auth/auth.routes.js';
+import groupRoutes from './modules/groups/groups.routes.js';
 
 export const app = express();
 
@@ -12,6 +14,9 @@ app.use(cors({
   credentials: true,
 }));
 app.use(express.json({ limit: '1mb' }));
+
+app.use('/api/auth', authRoutes);
+app.use('/api/groups', groupRoutes);
 
 // Liveness: verifies that the API process responds.
 app.get('/health', (_req, res) => {
